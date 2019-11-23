@@ -1,0 +1,65 @@
+$text-color:#cfcece;
+$title-color:#ffffff;
+$primary-color:#5474FD;
+$body-font-family: "Josefin Sans",
+sans-serif;
+$second-font-family: 'Aleo',
+sans-serif;
+@import "normalize";
+@import "layout";
+@import "elements";
+@import "_fonts";
+@import "_intro";
+@import "header";
+@import "_choose";
+@import "_spain";
+@import "_sea";
+@import "_reviev";
+body {
+    font: 400 16px/1.6 "Josefin Sans", sans-serif;
+    border: 16px solid $title-color;
+}
+
+
+/* Layout */
+
+.ba-container {
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1090px;
+}
+
+a {
+    color: $title-color;
+    text-decoration: none;
+    & :hover {
+        color: rgba($primary-color, 0.7);
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 10px;
+    line-height: 1.2;
+}
+
+h1 {
+    font-size: 48px;
+}
+
+h2 {
+    font-size: 36px;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+p {
+    font-size: 16px;
+    color: $text-color;
+}

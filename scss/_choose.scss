@@ -1,0 +1,34 @@
+.ba-section-choose {
+    background: url(../img/choose-bg.jpg) 50% no-repeat;
+    background-size: cover;
+    padding: 120px 0;
+}
+
+.ba-container-small {
+    max-width: 1110px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.section-title {
+    color: $title-color;
+    font-family: $second-font-family;
+    font-weight: 400;
+}
+
+.ba-button-choose {
+    background-color: $primary-color;
+    width: 225px;
+    height: 60px;
+    text-align: center;
+    padding: 25px 52px;
+    text-transform: uppercase;
+}
+
+.choose-bath {
+    margin-left: 65px;
+}
+
+.choose-view {
+    margin-left: 192px;
+}
